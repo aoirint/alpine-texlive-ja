@@ -8,4 +8,5 @@ RUN tlmgr repository add ${REPOSITORY} && \
     tlmgr option repository ${REPOSITORY} && \
     tlmgr repository list && \
     tlmgr install \
-        biblatex
+        biblatex \
+        biber
